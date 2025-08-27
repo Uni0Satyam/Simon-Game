@@ -53,7 +53,7 @@ Designing interactive user experiences
 
 Implementing game logic in JavaScript
 
-Future Enhancements
+<b>Future Enhancements<b\>
 
 Add sound effects for each color.
 
