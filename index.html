@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Simon Game</h1>
+        <h2>Press any key to start game</h2>
+        <div class="score">
+            <h3>Total Points:0</h3>
+            <h3 class="highestScore">Highest Points:0</h3>
+        </div>
+
+        <div id="container-btn ">
+            <div class="line-one grid">
+                <div class="btn red" type="button" id="red"></div>
+                <div class="btn green" type="button" id="green"></div>
+            </div>
+            <div class="line-two grid">
+                <div class="btn blue" type="button" id="blue"></div>
+                <div class="btn yellow" type="button" id="yellow"></div>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <section class="grid" aria-label="Game Overview">
+                <article class="card">
+                    <h2>Objective</h2>
+                    <p>Memorize and repeat the exact sequence of flashing color tiles. The sequence grows by one
+                        tile every round.</p>
+                </article>
+
+
+                <article class="card">
+                    <h2>Controls</h2>
+                    <ul>
+                        <li>Press <kbd>Any Key</kbd> to start or restart.</li>
+                        <li>Click the color tiles to input the sequence.</li>
+                    </ul>
+                </article>
+
+
+                <article class="card">
+                    <h2>How to Play</h2>
+                    <ol>
+                        <li>Press <kbd>Any Key</kbd> to begin.</li>
+                        <li>Watch the tiles light up in order.</li>
+                        <li>Click the tiles in the <strong>same order</strong>.</li>
+                        <li>Complete the round to earn a point and see a longer sequence next round.</li>
+                    </ol>
+                </article>
+
+
+                <article class="card">
+                    <h2>Scoring</h2>
+                    <ul>
+                        <li><strong>+10 point</strong> for every round completed.</li>
+                        <li><strong>Total Points</strong>: your current run.</li>
+                        <li><strong>Highest Points</strong>: your best score so far (persists until page refresh).</li>
+                    </ul>
+                </article>
+
+
+                <article class="card">
+                    <h2>Game Over</h2>
+                    <p>If you click the wrong tile at any time, the game ends immediately.</p>
+                    <div class="callout" role="note" aria-label="Restart info">
+                        <p><strong>Restart:</strong> Press <kbd>Any Key</kbd> to try again. Your highest score
+                            remains.</p>
+                    </div>
+                </article>
+
+
+                <article class="card">
+                    <h2>Tips</h2>
+                    <ul>
+                        <li>Break long sequences into small chunks.</li>
+                        <li>Say the color names in your head to build rhythm.</li>
+                        <li>Stay calm—the pace can feel faster as sequences get longer.</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h2>Back to the Game</h2>
+                    <p>Already know the rules?</p>
+                    <p><a href="./index.html">⬅ Back to Game</a></p>
+                </article>
+            </section>
+
+            <hr>
+            <div class="footer">
+                <span>© <span id="year"></span> Simon Game</span>
+                <span>made with ❤️ by <b>Satyam Kushwaha</b></span>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
