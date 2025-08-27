@@ -1,7 +1,5 @@
 # 🎨 **Simon Game**
 
-![Simon Game Banner](https://via.placeholder.com/1000x300?text=Simon+Game+%7C+Memory+Challenge) <!-- Replace with your custom banner image -->
-
 A fun and interactive **Simon Game** built using **HTML, CSS, and JavaScript**. Test your memory by repeating increasingly complex color sequences!
 
 ---
@@ -32,12 +30,8 @@ A fun and interactive **Simon Game** built using **HTML, CSS, and JavaScript**. 
 ---
 
 ## 📸 **Screenshots**
-*(Add screenshots of your game here)*
+<img width="1074" height="735" alt="image" src="https://github.com/user-attachments/assets/6ce3078e-94fe-4485-807f-9b23ef5abeda" />
 
----
-
-## 🌐 **Live Demo**
-[👉 Play Now](https://your-demo-link.com) *(Replace with your live project link)*
 
 ---
 
@@ -67,8 +61,7 @@ This project enhanced my understanding of:
 ---
 
 ## 📬 **Connect With Me**
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
-[![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)](https://github.com/yourusername)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://linkedin.com/in/satyam-kushwaha011)
 
 ---
 
