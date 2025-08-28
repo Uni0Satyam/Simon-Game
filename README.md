@@ -37,7 +37,7 @@ A fun and interactive **Simon Game** built using **HTML, CSS, and JavaScript**. 
 
 ## 🖥️ **Installation**
 ```bash
-git clone https://github.com/yourusername/simon-game.git
+git clone https://github.com/Uni0Satyam/simon-game.git
 cd simon-game
 open index.html
 ```
