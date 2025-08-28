@@ -44,6 +44,7 @@ function lvlUp() {
     btnFlash(ranBtn);
 };
 
+let warnSound = new Audio("./censor-beep-1-372459.mp3");
 let h3 = document.querySelector("h3");
 function checkAns(indx) {
     if (userSeq[indx] === gameSeq[indx]) {
@@ -58,6 +59,7 @@ function checkAns(indx) {
         }
     } else {
         h2.innerText = `Game Over! Press any key to Start again.`;
+        warnSound.play();
         reset();
         bgColor();
     }
@@ -71,6 +73,7 @@ function bgColor() {
     }, 500)
 };
 
+let btnSound = new Audio("./computer-mouse-click-352734.mp3");
 function btnPressed() {
     let btn = this;
     // flash
@@ -78,6 +81,9 @@ function btnPressed() {
 
     userColor = btn.getAttribute("id");
     userSeq.push(userColor);
+
+    // Play audio when button is pressed
+    btnSound.play();
 
     checkAns(userSeq.length - 1);
 };
@@ -101,4 +107,5 @@ function updateHiPnt(points) {
         highPoints = points;
     }
     return highPoints;
+
 };
