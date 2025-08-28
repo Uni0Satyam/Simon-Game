@@ -54,7 +54,7 @@ This project enhanced my understanding of:
 ---
 
 ## 🚀 **Future Improvements**
-- 🔊 Add **sound effects** for each tile.
+- 🔊 Add **sound effects** for each tile. ✅
 - ⏱️ Implement **difficulty levels**.
 - 💾 Save **high scores** using local storage.
 
