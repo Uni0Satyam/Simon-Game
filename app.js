@@ -10,7 +10,7 @@ let highPoints = 0;
 
 let h2 = document.querySelector("h2");
 
-document.addEventListener("keypress", function () {
+document.addEventListener("dblclick", function () {
     if (Started == false) {
         Started = true;
         lvlUp();
@@ -109,3 +109,4 @@ function updateHiPnt(points) {
     return highPoints;
 
 };
+
