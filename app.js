@@ -60,6 +60,7 @@ function checkAns(indx) {
     } else {
         h2.innerText = `Game Over! Press any key to Start again.`;
         warnSound.play();
+        warnSound.currentTime = 1;
         reset();
         bgColor();
     }
@@ -109,4 +110,5 @@ function updateHiPnt(points) {
     return highPoints;
 
 };
+
 
